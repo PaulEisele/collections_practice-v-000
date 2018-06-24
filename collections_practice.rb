@@ -50,3 +50,12 @@ def add_s(array)
     end
   end
 end
+
+def kesha_maker(array)
+  kesha_names = []
+  array.each do |name|
+    name[2] = "$"
+    kesha_names << name
+  end
+  kesha_names
+end
